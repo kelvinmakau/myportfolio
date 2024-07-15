@@ -66,4 +66,15 @@
     });
   
   })(jQuery); // End of use strict
+
+  // This function sets the current year in the element with the ID 'currentYear'
+  function updateCopyrightYear() {
+    // Get the current year
+    var currentYear = new Date().getFullYear();
+    // Find the element with the ID 'currentYear' and set its text content to the current year
+    document.getElementById('currentYear').textContent = currentYear;
+  }
+
+  // Call the function to update the year when the page loads
+  updateCopyrightYear();
   

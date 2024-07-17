@@ -1,0 +1,5 @@
+# Redirect a single page
+Redirect 301 / https://www.kelvinmike.netlify.app/index
+
+# Redirect an entire domain
+Redirect 301 / https://www.kelvinmike.netlify.app

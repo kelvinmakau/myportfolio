@@ -1,4 +1,6 @@
 # myportfolio
+# Kelvin Makau Munyao
 
-Simple portfolio, HTML/CSS/JS
-I may have another quite soon
+Portfolio
+Showcasing all my work and certificates.
+I will keep working on it until it becomes a fully functional, complex website incorporating full backend and frontend.

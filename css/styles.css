@@ -7418,4 +7418,83 @@ form .row:first-child .floating-label-form-group {
   p.justified {
     text-align: justify;
   }
-  
+
+  .certificates {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.certificate {
+    flex: 1 1 calc(25% - 20px); /* Adjusted for four items in a row */
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.certificate h3 {
+    margin-bottom: 5px;
+    color: #0779e4;
+}
+
+.certificate p {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#view-more {
+    background-color: #0779e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#view-more:hover {
+    background-color: #005bb5;
+}
+
+.credential-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.credential-button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+

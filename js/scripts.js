@@ -77,4 +77,27 @@
 
   // Call the function to update the year when the page loads
   updateCopyrightYear();
+
+  // toggle certificates
+  function toggleCertificates() {
+    const certificates = document.querySelectorAll('.certificate');
+    const viewMoreBtn = document.getElementById('view-more');
+    
+    if (viewMoreBtn.textContent === 'View More') {
+        certificates.forEach((cert, index) => {
+            if (index >= 4) {
+                cert.classList.remove('hidden');
+            }
+        });
+        viewMoreBtn.textContent = 'View Less';
+    } else {
+        certificates.forEach((cert, index) => {
+            if (index >= 4) {
+                cert.classList.add('hidden');
+            }
+        });
+        viewMoreBtn.textContent = 'View More';
+    }
+}
+
   
